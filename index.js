@@ -173,7 +173,7 @@ const QuizGame = (function () {
     }
 
     QuizGame.prototype.updatePB = function () {
-        this.pb.setCurrent(this.currentQuestionIdx);
+        this.pb.setCurrent(this.currentQuestionIdx + 1);
     }
 
     QuizGame.prototype._initQuestion = function (i) {
