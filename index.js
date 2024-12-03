@@ -285,6 +285,5 @@ const QuizGame = (function () {
     return QuizGame;
 })();
 
-quiz.length = Math.floor(Math.random() * quiz.length);
 let qq = new QuizGame(quiz);
 // setActivePage("#resultPage");
