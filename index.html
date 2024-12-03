@@ -5,11 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
+    <script src="questions.js"></script>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	test
-	test
+    <main id="main">
+    </main>
+    <section id="quizPage" class="quiz_page page active container">
+        <div class="quiz_page_inner">
+            <h1 id="mainTitle">Тестирование</h1>
+            <section id="quizQuestion" class="quiz_question question">
+                <h4 class="question_title">Что такое операционная система?</h4>
+                <ul class="question_options options">
+
+                </ul>
+            </section>
+            <div id="quizProgress"></div>
+        </div>
+    </section>
+    <section id="resultPage" class="result_page page container">
+        <div id="resultPageContainer" class="result_page_inner">
+            <div class="result_header header">
+                <h1 class="header_title">Поздравляем!</h1>
+                <p class="header_description">Вы правильно ответили на все вопросы.
+                    <br>Вы действительно отлично разбираетес в IT.
+                </p>
+            </div>
+            <div class="result_detail detail">
+                <div class="detail_container detail-accepted">
+                    <h5>Что такое операционная система?</h5>
+                    <p>Это набор взаимосвязанных программ, осуществляющих управление компьютером и взаимодействие с
+                        пользователем.s</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>

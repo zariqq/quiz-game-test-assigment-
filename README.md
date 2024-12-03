@@ -13,3 +13,4 @@
     - [ ] Display title feedback
     - [ ] Result page title and description logic
 - [ ] Restart logic quiz
+- [ ] Responsive typography
